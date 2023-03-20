@@ -65,6 +65,15 @@ class Array
         end
         new_arr
     end
+
+    def my_rotate(num=1)
+        if num > 0
+           new num.times do
+                first_letter = self.shift
+                self.push(first_letter)
+            end
+
+
 end
 
 
